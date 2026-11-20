@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# downloaded models (airlock fetch-models)
+models/
+
+# demo files from `airlock make-sample`
+sample_contract.pdf
+sample_questions.jsonl
+
+# exported logs and eval output can contain text from your documents
+*provenance*.jsonl
+audit*.jsonl
+report.md
+results.json
+
+.DS_Store
