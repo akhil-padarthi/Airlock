@@ -36,7 +36,8 @@ The one time you need internet is `airlock fetch-models`, which downloads the mo
 You'll need Python 3.10 or newer and [Ollama](https://ollama.com).
 
 ```bash
-cd airlock
+git clone https://github.com/akhil-padarthi/Airlock.git
+cd Airlock
 python -m venv .venv
 source .venv/bin/activate        # on Windows: .venv\Scripts\activate
 pip install -e ".[ui,demo]"
